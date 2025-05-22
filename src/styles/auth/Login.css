@@ -1,0 +1,139 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.LogoEcineLogin {
+    width: 180px;
+    height: 90px;
+}
+
+.PalomitasLogin {
+    width: 600px;
+}
+
+.ContainerLogin {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0px
+}
+
+.ContainerImageLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.FormLogin {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: "auto";
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 25px 30px;
+}
+
+.TitleTextLogin {
+    display: flex;
+    justify-content: center;
+}
+
+.TitleTextLogin span {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.FormLoginInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+.Email,
+.Password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Email span,
+.Password span {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.Email input,
+.Password input {
+    width: 450px;
+    padding: 8px;
+    border: 2px solid #adb5c2;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Email input:focus,
+.Password input:focus {
+    outline: none;
+    border-color: #6c757d;
+}
+
+.PasswordInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.EyeIcon {
+    position: absolute;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.buttonsLogin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    flex-grow: 1;
+    border-top: 2px solid #000;
+}
+
+.divider-text {
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.ErrorMessageLogin {
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Source Sans 3', sans-serif;
+    color: red;
+    margin-top: 5px;
+}

@@ -1,0 +1,33 @@
+.cardReservations {
+    width: 360px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #ccabff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardReservations span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.movieFolioContainer,
+.dateMovieContainer,
+.placeMovieContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seatsMovieContainer {
+    margin-top: 5px;
+}
+
+.buttonCardReservationsContainer {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}

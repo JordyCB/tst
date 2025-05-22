@@ -1,0 +1,26 @@
+.Footer {
+    width: 100%;
+}
+
+.ContainerFooter {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ContainerImageFooter {
+    padding: 20px 50px;
+}
+
+.FooterText {
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.ContainerTextFooter {
+    padding: 20px 50px;
+}

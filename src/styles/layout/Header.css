@@ -1,0 +1,129 @@
+*{
+    font-family: 'Source Sans 3';
+}
+
+.Header {
+    width: 100%;
+}
+
+.HeaderImage {
+    width: 120px;
+    cursor: pointer;
+}
+
+.ContainerHeader {
+    flex: 1;
+    background-color: #9357fb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ContainerImageHeader {
+    padding: 20px 0px;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.HeaderText {
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.ContainerTextHeader {
+    padding: 20px 0px;
+}
+
+
+.ContainerButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.userNameContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.welcomeText{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nameText{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.imageUserContainer img {
+    width: 50px;
+}
+
+.userContainerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.buttonUserHeader{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.optionsUserContainer{
+    background: #FFFFFF;
+    position: absolute;
+    padding: 10px 15px;
+    margin-left: 50px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.18);
+}
+
+.optionsUserContainer button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.triangleImage{
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 90px;
+}
+
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profileUserContainer button,
+.exitContainer button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}

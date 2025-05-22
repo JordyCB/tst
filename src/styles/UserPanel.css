@@ -1,0 +1,60 @@
+*{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.UsePanel{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.UsePanelContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.menuContainer{
+    background: #FFFFFF;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.optionsPanelContainer{
+    background: #B1B2B5;
+    width: 300px;
+}
+
+.infoPanelContainer{
+    background: #FFFFFF;
+    width: 500px;
+    padding-top: 40px;
+}
+
+.userImagePanelContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.userImagePanelContainer img{
+    width: 90px;
+}
+
+.optionsButtonContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.goHomeButtonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
